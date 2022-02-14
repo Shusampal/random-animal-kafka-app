@@ -8,13 +8,13 @@ Producer will push random animal name to that topic.
 3.Consumer can read these pushed message.
 
 ## File structure
-topic.js - File which creates the kafka topic.
-producer.js - File which creates the producer and which will then periodically push message.
-consumer.js - File which reads the pushed message.
+1. topic.js - File which creates the kafka topic.
+2. producer.js - File which creates the producer and which will then periodically push message.
+3. consumer.js - File which reads the pushed message.
 
 ## Dependencies
-kafka.js
-chance
+1. kafka.js
+2. chance
 
 ## How to start
 Please run the scripts as below in same order as written below
