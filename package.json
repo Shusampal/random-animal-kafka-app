@@ -1,0 +1,19 @@
+{
+  "name": "kafka_animal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "topic": "node topic.js",
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "kafkajs": "^1.16.0"
+  }
+}
