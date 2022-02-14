@@ -3,14 +3,14 @@ Topic named random_animals is created .
 Producer will push random animal name to that topic.
 
 ## Flow of Project
-Topic is created.
-Producer produces / pushes message in fixed interval to this topic.
-Consumer can read these pushed message.
+1.Topic is created.
+2.Producer produces / pushes message in fixed interval to this topic.
+3.Consumer can read these pushed message.
 
 ## File structure
-topic.js - File which creates the kafka topic
-producer.js - File which creates the producer and which will then periodically push message
-consumer.js - File which reads the pushed message
+topic.js - File which creates the kafka topic.
+producer.js - File which creates the producer and which will then periodically push message.
+consumer.js - File which reads the pushed message.
 
 ## Dependencies
 kafka.js
