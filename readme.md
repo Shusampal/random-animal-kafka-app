@@ -3,9 +3,9 @@ Topic named random_animals is created .
 Producer will push random animal name to that topic.
 
 ## Flow of Project
-1.Topic is created.
-2.Producer produces / pushes message in fixed interval to this topic.
-3.Consumer can read these pushed message.
+1. Topic is created.
+2. Producer produces / pushes message in fixed interval to this topic.
+3. Consumer can read these pushed message.
 
 ## File structure
 1. topic.js - File which creates the kafka topic.
